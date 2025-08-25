@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & The Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Basics & The Box Model</h1>
+        <p>Understanding how CSS styles content and how the box model controls layout</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="intro">
+            <h2>Introduction to CSS</h2>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        </section>
+        
+        <section class="box-model">
+            <h2>The CSS Box Model</h2>
+            <p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element.</p>
+            
+            <div class="box-model-demo">
+                <div class="margin">
+                    Margin
+                    <div class="border">
+                        Border
+                        <div class="padding">
+                            Padding
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p>The box model consists of: content, padding, border, and margin. The image below shows these layers:</p>
+        </section>
+        
+        <section class="properties">
+            <h2>Common CSS Properties</h2>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Text Properties</h3>
+                    <p>CSS provides many properties for styling text, including:</p>
+                    <ul>
+                        <li>color: Sets text color</li>
+                        <li>font-family: Defines the font</li>
+                        <li>font-size: Controls text size</li>
+                        <li>text-align: Aligns text</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Box Model Properties</h3>
+                    <p>Properties that control the box model:</p>
+                    <ul>
+                        <li>margin: Space outside the border</li>
+                        <li>padding: Space inside the border</li>
+                        <li>border: Edge around padding and content</li>
+                        <li>width/height: Content dimensions</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Background Properties</h3>
+                    <p>Properties for styling element backgrounds:</p>
+                    <ul>
+                        <li>background-color: Sets solid color</li>
+                        <li>background-image: Adds images</li>
+                        <li>background-position: Positions images</li>
+                        <li>background-repeat: Controls tiling</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="buttons">
+            <h2>Styled Buttons</h2>
+            <p>Buttons demonstrate many CSS properties and the box model:</p>
+            
+            <div class="button-container">
+                <button class="btn primary">Primary Button</button>
+                <button class="btn secondary">Secondary Button</button>
+                <button class="btn outline">Outline Button</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>CSS Basics & The Box Model Assignment</p>
+        <p>Created to demonstrate understanding of CSS fundamentals</p>
+    </footer>
+</body>
+</html>
